@@ -120,8 +120,8 @@ step 2:
 3. 在`Activity`或是需要监听手势操作的组件的`OnTouch`回调中使用`GestureHandler`处理：
 	```kotlin
 	override fun onTouchEvent(event: MotionEvent?): Boolean {
-        handler.onDetectorGesture(event)
-        return true
-  }
+        	handler.onDetectorGesture(event)
+        	return true
+  	}
 	```
 4. 具体实现效果可参考demo。
